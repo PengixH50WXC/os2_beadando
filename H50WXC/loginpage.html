@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bejelentkezés</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/login_style.css">
+</head>
+<body>
+<div>
+	<form action="login.php" method="post"><table>
+		<tr><td>Felhasználónév: </td><td><input type="text" name="username" pattern="[A-Z a-z 0-9]*" required size="15"></td></tr>
+		<tr><td>Jelszó: </td><td><input type="password" name="passwd" pattern="[A-Z a-z 0-9]*" required size="15"></td></tr>
+		<tr style="text-align:right;"><td><a href='regform.php'><input type='button' value='Regisztráció' name='reg'></a></td>
+                <td><input type="submit" value="Elküld" name="send"></td></tr>
+	</table></form>
+</div>
+</body>
+</html>

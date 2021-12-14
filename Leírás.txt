@@ -1,0 +1,22 @@
+Téma: Bonsai fa. Mindig is gyönyörűnek tartottam, ezért választottam ezt a témát. (A bonsai adatok nem tükrözik teljesen a valóságot)
+
+Admin
+Név: admin
+Jelszó: 12345
+
+Users
+Név: Husky
+Jelszó: husky
+
+A weboldalhoz szükséges sql megtalálható a mappába h50wxc.sql néven.
+3 táblát használtam: users, menu és bonsai.
+
+A kötelező menüpontokat sikerült megcsinálnom. Van külön admin és sima user. A sima user csak profilját, a listát látja és keresni tud a listából.
+Profil: Mutatja a profilképet, nevet, email címet és lehetséges a jelszó, email cím, profilkép megváltoztatása. A profilkép változtatásnál törli az elöző képet a mappából és belerakja az újat. Kötelező megadni valamilyen értéket a változtatásnál, mert anélkül nem lehet beküldeni.
+Lista (Bonsai fák): Egy táblába kiíratja a már felvett bonsai fákat. (Egy bonsai fa tartalmazza a képet, nevet, árat, fajtát, tipust, magasságot és életkort. (Lapozni lehetséges).
+Új lista elem (Új bonsai fa): Kötelezően meg kell adni minden adatot: képet, nevet, árat, fajtát, tipust, magasságot és életkort. Idöközben törölni is lehet egy gombbal az egészet ha nem szeretnénk egyenként kitörölni mindent.
+Törlés (Bonsai fa törlése): Törlésnél mutatja a listát is, hogy lássuk a nevüket a bonsai fáknak, mert a nevük beírásával tudjuk kitörölni őket a táblából teljesen (mappástúl). Kötelező megadni valamilyen adatot, mert üresen nem lehet beküldeni.(Lapozni lehetséges).
+Módosítás (Bonsai fa módosítása): Itt is mutatja a listát, hogy lássuk min szeretnénk változtatni. Egyenként lehet csak módosítani egy adatot és kötelező megadni értéket beküldés előtt. Kép cserénél kitörli a régit a mappából és berakja az újat. A név cserénél meg átírja a mappa nevét és az adatbázisba is.
+Keresés: Nevüket megadva kidobja a keresett értéket.
+
+

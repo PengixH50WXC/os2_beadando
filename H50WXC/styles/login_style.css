@@ -1,0 +1,11 @@
+body{
+    background: url("../img/background.jpg");
+}
+
+div{background-color:rgb(185,205,218);
+color:black;
+margin:auto;
+width:300px;
+font-size:20px;
+margin-top:150px;
+padding: 10px;}
